@@ -6,6 +6,9 @@
   "author": "yangming <472102644@qq.com>",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.17.1",
+    "github-webhook-handler": "^1.0.0",
+    "my-local-ip": "^1.0.0",
     "vuepress": "^1.2.0"
   },
   "scripts": {
