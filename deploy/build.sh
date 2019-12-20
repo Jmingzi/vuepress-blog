@@ -4,7 +4,7 @@ echo 'git pull ...'
 git reset --hard origin/master
 git clean -f
 git pull
-
+npm install
 # echo 'git pull complete ...'
 
 # echo 'npm run build ...'
