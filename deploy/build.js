@@ -1,5 +1,5 @@
 const express = require('express')
-// const spawn = require('child_process').spawn
+const spawn = require('child_process').spawn
 const createHandler = require('github-webhook-handler')
 const handler = createHandler({ path: '/push', secret: 'update' })
 const app = express()
