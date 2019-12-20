@@ -49,7 +49,7 @@ handler.on('push', (event) => {
   console.log(`Received a push event for ${event.payload.repository.name} to ${event.payload.ref}`)
   rumCommand('sh', ['./deploy/build.sh'], txt => {
     // log.debug(txt)
-    console.log(txt)
+    console.log(`Hooks update success: ${event.payload.repository.name} !`)
   })
 })
 
@@ -59,10 +59,11 @@ function rumCommand(cmd, args, callback) {
 
   child.stdout.on('data', buffer => {
     response += buffer.toString()
+    console.log(`stdout: ${buffer}`)
   })
 
   child.stderr.on('data', (data) => {
-    log.debug(`stderr: ${data}`)
+    console.log(`stderr: ${data}`)
   })
 
   child.stdout.on('end', () => {
