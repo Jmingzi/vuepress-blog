@@ -14,5 +14,10 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.2.0",
+    "@vuepress/plugin-google-analytics": "^1.2.0",
+    "@vuepress/plugin-nprogress": "^1.2.0"
   }
 }
