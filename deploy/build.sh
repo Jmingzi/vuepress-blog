@@ -5,6 +5,7 @@ git reset --hard origin/master
 git clean -f
 git pull
 npm install
+npm run docs:build
 # echo 'git pull complete ...'
 
 # echo 'npm run build ...'
