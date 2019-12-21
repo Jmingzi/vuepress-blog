@@ -2,7 +2,7 @@ module.exports = {
   title: 'Jmingzi',
   lang: 'zh-CN',
   description: 'Jmingzi 的个人博客，高级前端进阶之路。',
-  base: '/demo/vuepress-blog/docs/.vuepress/dist/',
+  base: '',
   // globalLayout: '/layouts/custom.vue',
   lastUpdated: 'Last Updated',
   head: [
