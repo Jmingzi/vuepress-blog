@@ -6,7 +6,8 @@ module.exports = {
   // globalLayout: '/layouts/custom.vue',
   head: [
     ['meta', { 'http-equiv': 'Cache-Control', content: 'no-transform' }],
-    ['meta', { name: 'google-site-verification', content: 'TbvyCK9sEBOqr5fAbXQ2uLNMgTDgn4wmpBM747LhOwk' }]
+    ['meta', { name: 'google-site-verification', content: 'TbvyCK9sEBOqr5fAbXQ2uLNMgTDgn4wmpBM747LhOwk' }],
+    ['meta', { name: "baidu-site-verification", content: "mqWodOmELg" }]
   ],
   plugins: [
     '@vuepress/back-to-top',
