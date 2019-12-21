@@ -31,8 +31,8 @@ module.exports = {
         title: 'Js 深入系列',
         collapsable: false,
         children: [
-          '/js-deep/unicode',
           '/js-deep/float-number',
+          '/js-deep/unicode',
         ]
       },
       {
