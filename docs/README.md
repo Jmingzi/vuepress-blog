@@ -12,9 +12,7 @@ features:
 footer: 鄂ICP备18011687号-1 | Copyright © Yang Ming
 ---
 
-高级前端进阶之路，从前端知识体
-
-系出发，各个击破！
+高级前端进阶之路，从前端知识体系出发，各个击破！
 
 <artical-img 
   url="https://lsqimg-1257917459.cos.ap-beijing.myqcloud.com/blog/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB.png"
