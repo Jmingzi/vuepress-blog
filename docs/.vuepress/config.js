@@ -11,10 +11,12 @@ module.exports = {
   ],
   plugins: [
     '@vuepress/back-to-top',
-    '@vuepress/google-analytics',
-    {
-      'ga': 'UA-154866821-1'
-    },
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'UA-154866821-1'
+      },
+    ],
     '@vuepress/nprogress'
   ],
   markdown: {
