@@ -1,5 +1,4 @@
 ---
-title: 首页
 meta:
   - name: keywords
     content: 个人博客，前端分享，前端进阶
