@@ -29,7 +29,7 @@ module.exports = {
     smoothScroll: true,
     lastUpdated: 'Last Updated',
     sidebar: [
-      '/',
+      '/learn-plan/',
       {
         title: 'Js 深入系列',
         collapsable: false,
