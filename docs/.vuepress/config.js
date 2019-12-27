@@ -44,6 +44,29 @@ module.exports = {
         children: [
           '/es6/iterate'
         ]
+      },
+      {
+        title: '算法系列',
+        collapsable: false,
+        children: [
+          {
+            title: '简单算法',
+            collapsable: false,
+            children: [
+              {
+                title: '字符串',
+                // collapsable: false,
+                children: [
+                  '/algorithm/simple/string/length-of-longest-substring',
+                ]
+              },
+              '/algorithm/simple/array',
+              '/algorithm/simple/regexp',
+              '/algorithm/simple/sort',
+              '/algorithm/simple/recursion'
+            ]
+          }
+        ]
       }
     ],
     nav: [
